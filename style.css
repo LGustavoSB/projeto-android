@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+main img{
+    width: 100%;
+}
+@font-face {
+    font-family: 'destaque';
+    src: url('fontes/BebasNeue-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal;
+}
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype'); font-weight: normal; font-style: normal;
+}
+
+body{
+    font-family: Arial, Verdana, Helvetica, sans-serif;; 
+    text-align: justify;
+    background-color: #84E1AD;
+    justify-content: center;
+    display: block;
+}
+header{
+    margin: -24px -8px 0px -8px;
+    text-align: center;
+    background-image: linear-gradient(to top, #195734, #13b35b) ;
+    color: white;
+    padding: 20px;
+    box-shadow: 10px -20px 30px rgba(0, 0, 0, 0.452);
+    min-height: 150px;
+}
+header > h1{
+    font-family: 'destaque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+    margin: 20px;
+}
+header > p{
+    font-weight: lighter;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
+}
+a.externo{
+    background-color: #23cc6f;
+}
+nav > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0px 10px;
+    justify-content: space-between;
+}
+nav > a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    padding: 10px;
+    margin: auto; 
+    box-shadow: -1px 1px 25px rgba(0, 0, 0, 0.452);
+    min-width: 300px;
+    max-width: 1000px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;}
+main strong{
+    color:#195734;
+    font-weight: bolder;
+}
+article{
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p > a{
+    color: #063d1e;
+    font-weight: bolder;
+}
+
+
+main h1 {
+    font-weight: normal;
+    font-size: 1.8em;
+    font-family: 'Android';
+    color: #1B5D39;
+}
+h2{
+    text-align: justify;
+    font-family: 'Android';
+    color: #1B5D39;
+    background-image: linear-gradient(to right, #C4EBD5, white);
+    text-indent: 8px;
+}
+
+div{
+    display: block;
+}
+div.video {
+    background-color:#063d1e;
+    margin: 0px -10px 30px -10px;
+    padding: 10px 10px 10px 20px;
+    padding-bottom: 58%;
+    position: relative;
+    min-width: 300px;
+    max-width: 1000px;
+}
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;}
+aside > p{
+    margin: 10px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+footer{
+    background-color: #195734;
+    border: 5px solid #195734;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0,8em;
+    margin: 15px -8px -21px -8px;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+#p{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bolder;
+    text-indent: 8px;
+}
+#aul{
+    background-color: #C5EBD6;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.452);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: #195734;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #C4EBD5;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(41, 209, 41);
+}
