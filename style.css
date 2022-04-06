@@ -93,6 +93,9 @@ main h1 {
     font-size: 1.8em;
     font-family: 'Android';
     color: #1B5D39;
+    text-align: center;
+    background-color: #C5EBD6;
+    border-radius: 10px 10px;
 }
 h2{
     text-align: justify;
@@ -141,7 +144,7 @@ ul{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding: 10px;
 }
 footer{
     background-color: #195734;
