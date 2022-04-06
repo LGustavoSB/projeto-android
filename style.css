@@ -40,7 +40,11 @@ header > p{
     text-shadow: 2px 2px 0px rgb(0 0 0 / 32%);
 }
 a.externo{
-    background-color: #23cc6f;
+    background-color: #43e08a81;
+    text-decoration: none;
+}
+a.externo:hover{
+    text-decoration: underline;
 }
 nav > a{
     text-decoration: none;
@@ -159,6 +163,9 @@ footer a {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
 a.externo::after{
     content: '\00A0\1F517';
